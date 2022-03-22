@@ -1,0 +1,13 @@
+package com.madhura.demo5;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo6.Department;
+
+public class Employee {
+
+	@Autowired
+	public Department d;
+	
+	d.getId();
+}
